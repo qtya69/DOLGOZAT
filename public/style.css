@@ -1,0 +1,18 @@
+/*
+* File: style.css
+* Author: Traxler Koppány
+* Copyright: 2025, Traxler Koppány
+* Group: Szoft IN
+* Date: 2025-04-27
+* Github: https://github.com/qtya69/
+* Licenc: MIT
+*/
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+}

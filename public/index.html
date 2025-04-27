@@ -1,0 +1,39 @@
+<!--
+* File: index.html
+* Author: Traxler Koppány
+* Copyright: 2025, Traxler Koppány
+* Group: Szoft IN
+* Date: 2025-04-27
+* Github: https://github.com/qtya69/
+* Licenc: MIT
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henger felszíne - 0318 feladat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container mt-5">
+    <h1>Henger felszíne <small class="text-muted">Traxler Koppány</small></h1>
+    
+    <div class="card mt-4">
+        <div class="card-body">
+            <div class="mb-3">
+                <label for="radius" class="form-label">Sugár (r)</label>
+                <input type="number" id="radius" class="form-control" step="any" required>
+            </div>
+            <div class="mb-3">
+                <label for="length" class="form-label">Hossz (h)</label>
+                <input type="number" id="length" class="form-control" step="any" required>
+            </div>
+            <button onclick="calculateSurface()" class="btn btn-primary">Számítás</button>
+            <div id="result" class="mt-3 h4"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
